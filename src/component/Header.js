@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div>
+        
         <nav className="navbar navbar-expand-lg navbar-dark bg-danger">
   <div className="container-fluid">
       <Link className="navbar-brand" to="/">BOOK LIBRARY</Link>
@@ -13,7 +14,8 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
       <Link className="nav-link active" to="/">Addbook</Link>
-      <Link className="nav-link" to="/search">BookSEarch</Link>
+      <Link className="nav-link" to="/search">BookSearch</Link>
+      <Link className="nav-link" to="/view">ViewBook</Link>
         
       </div>
     </div>
